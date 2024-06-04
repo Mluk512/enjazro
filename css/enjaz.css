@@ -26,7 +26,7 @@ header .container .logo {margin: 0;width: 100px;}
 header .container ul {display: flex;list-style: none;direction: rtl;margin: 0;}
 header .container ul li {padding-left: 20px;border-left: 1px solid black;padding-right: 20px;}
 header .container ul li a {color: white;text-decoration: none;font-size: 15px;font-weight: 900;transition: 0.3s;}
-header .container ul li a:hover {color: rgb(24, 247, 247)}
+header .container ul li a:hover {color:#ffb400}
 
 @media (max-width:786px) {
     header .container .links {position: relative;}
@@ -41,7 +41,7 @@ header .container ul li a:hover {color: rgb(24, 247, 247)}
     header .container .links ul::before {content: "";border-width: 10px;border-style: solid;border-color: transparent transparent #f6f6f6 transparent;position: absolute;right: 5px;top: -20px;}
     header .container .links ul li:not(:last-child) {border-bottom: 1px solid #ddd;}
     header .container .links ul li a {display: block;padding: 15px;text-decoration: none;color: #333;transition: 0.3s;}
-    header .container .links ul li a:hover {padding-left: 25px;color:#ffb400}
+    header .container .links ul li a:hover {padding-left: 25px;color:#ffb400;padding-right: 30px;}
 }
 /* end header */
 /* start home */
