@@ -21,7 +21,7 @@ body {}
 /* start header */
 header {padding-left: 15px;padding-right: 15px;background-color: #0095ffa3;}
 header .container {display: flex;justify-content: space-between;align-items: center;}
-header .container .logo {color: white;margin: 0;}
+header .container .logo {margin: 0;width: 100px;}
 
 header .container ul {display: flex;list-style: none;direction: rtl;margin: 0;}
 header .container ul li {padding-left: 20px;border-left: 1px solid black;padding-right: 20px;}
@@ -46,11 +46,11 @@ header .container ul li a:hover {color: rgb(24, 247, 247)}
 /* end header */
 /* start home */
 .landing {background-image: url(../images/landing.jpeg);background-size: cover;height: calc(100vh - 120px);position: relative;}
-.landing::before {content: "";position: absolute;}
+.landing .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:rgb(0 0 0 / 60% )}
 .landing .container .text {text-align: center;direction: rtl;position: absolute;top: 50%;left: 50%;transform: translate(-50% , -50%);}
 .landing .container .text h2 {margin: 0;color:white;font-size: 40px;}
 .landing .container .text p {font-size: 22px;text-align: justify;color:white}
-.landing .container .text input {transition: 0.3s;background-color:orange;color:white;border: none;width: 140px;height: 35px;border-radius: 10px;text-align: center;align-items: center;font-size: 20px;}
+.landing .container .text input {transition: 0.3s;background-color:#ffb400;color:white;border: none;width: 140px;height: 35px;border-radius: 10px;text-align: center;align-items: center;font-size: 20px;}
 .landing .container .text input:hover {background-color:rgb(24, 247, 247);}
 /* end home */
 /* start home */
