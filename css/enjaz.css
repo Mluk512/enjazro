@@ -68,8 +68,9 @@ header .container ul li a:hover {color:#ffb400}
 /* end home */
 
 /* start home */
-.features {background-color: #0095ffa3;background-size: cover;}
-.features::before {}
+.features {background-color: #739ee3;background-size: cover;position: relative;}
+.features::after {content: "";position: absolute;left: 0px;top: 0;background: url(../images/choc.png)repeat-y;width: 1440px;height: 1011px;}
+.features::before {content: "";position: absolute;left: 0px;top: 0;background: url(../images/choc2.png)no-repeat;width: 408px;height: 583px;}
 .features .container {}
 .features .container .featurs {direction: rtl;display: grid;grid-template-columns: repeat(auto-fill,minmax( 200px, 1fr ));grid-gap: 20px;text-align: center;}
 .features .container .featurs .featur img {max-width: 140px;background-color: white;border-radius: 50%;padding: 5px;border: 1px solid rgb(255, 2, 2);}
