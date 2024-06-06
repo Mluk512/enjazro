@@ -73,8 +73,8 @@ header .container ul li a:hover {color:#ffb400}
 .features .container {}
 .features .container .featurs {direction: rtl;display: grid;grid-template-columns: repeat(auto-fill,minmax( 200px, 1fr ));grid-gap: 20px;text-align: center;}
 .features .container .featurs .featur img {max-width: 140px;background-color: white;border-radius: 50%;padding: 5px;border: 1px solid rgb(255, 2, 2);}
-.features .container .featurs .featur h3 {}
-.features .container .featurs .featur p {font-size: 15px;}
+.features .container .featurs .featur h3 {color: white;}
+.features .container .featurs .featur p {font-size: 15px;color: white;}
 /* end home */
 /* start roya */
 .roya {position: relative;background-image: url(../images/roya.jpg);background-size: cover;height:100vh;margin: 0;}
