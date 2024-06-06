@@ -23,8 +23,8 @@ body {}
 /* end globale rolez */
 /* start special-heading*/
 .special-heading {text-align: center;margin-bottom: 90px;padding-top: 30px;}
-.special-heading h2 {margin: 0;}
-.special-heading p {line-height: 1.6;}
+.special-heading h2 {margin: 0;color: white;}
+.special-heading p {line-height: 1.6;color: white;}
 /* end special-heading*/
 /* start header */
 header {padding-left: 15px;padding-right: 15px;background-color: #0095ffa3;}
