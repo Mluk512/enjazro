@@ -18,8 +18,8 @@ body {}
 @media (min-width:1200px){.container {width: 750px;}}
 /* end globale rolez */
 /* start special-heading*/
-.special-heading {text-align: center;}
-.special-heading h2 {}
+.special-heading {text-align: center;margin-bottom: 90px;padding-top: 30px;}
+.special-heading h2 {margin: 0;}
 .special-heading p {line-height: 1.6;}
 /* end special-heading*/
 /* start header */
@@ -49,7 +49,7 @@ header .container ul li a:hover {color:#ffb400}
 }
 /* end header */
 /* start home */
-.landing {background-image: url(../images/landing.jpeg);background-size: cover;height: calc(100vh - 120px);position: relative;}
+.landing {background-image: url(../images/landing.jpeg);background-size: cover;height: calc(100vh - 120px);position: relative;margin: 0}
 .landing .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:rgba(0, 81, 255, 0.5)}
 .landing .container .text {text-align: center;direction: rtl;position: absolute;top: 50%;left: 50%;transform: translate(-50% , -50%);}
 .landing .container .text h2 {margin: 0;color:white;font-size: 40px;}
@@ -64,11 +64,11 @@ header .container ul li a:hover {color:#ffb400}
 /* end home */
 
 /* start home */
-.features {}
+.features {background-color: #0095ffa3;background-size: cover;}
 .features::before {}
 .features .container {}
 .features .container .featurs {direction: rtl;display: grid;grid-template-columns: repeat(auto-fill,minmax( 200px, 1fr ));grid-gap: 20px;text-align: center;}
-.features .container .featurs .featur img {max-width: 100px;}
+.features .container .featurs .featur img {max-width: 140px;background-color: white;border-radius: 50%;padding: 5px;border: 1px solid black;}
 .features .container .featurs .featur h3 {}
 .features .container .featurs .featur p {font-size: 15px;}
 /* end home */
