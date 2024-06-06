@@ -77,7 +77,7 @@ header .container ul li a:hover {color:#ffb400}
 .features .container .featurs .featur p {font-size: 15px;color: white;}
 /* end home */
 /* start roya */
-.roya {position: relative;background-image: url(../images/roya.jpg);background-size: cover;height:100vh;margin: 0;}
+.roya {position: relative;background-image: url(../images/roya.jpg);background-size: cover;height:100vh;margin: 0;background-attachment: fixed;}
 .roya .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:#edc21583}
 .roya .container {}
 .roya .container {}
