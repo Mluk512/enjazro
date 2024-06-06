@@ -17,7 +17,11 @@ body {}
 /* large */
 @media (min-width:1200px){.container {width: 750px;}}
 /* end globale rolez */
-
+/* start special-heading*/
+.special-heading {text-align: center;}
+.special-heading h2 {}
+.special-heading p {line-height: 1.6;}
+/* end special-heading*/
 /* start header */
 header {padding-left: 15px;padding-right: 15px;background-color: #0095ffa3;}
 header .container {display: flex;justify-content: space-between;align-items: center;}
@@ -46,7 +50,7 @@ header .container ul li a:hover {color:#ffb400}
 /* end header */
 /* start home */
 .landing {background-image: url(../images/landing.jpeg);background-size: cover;height: calc(100vh - 120px);position: relative;}
-.landing .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:rgb(0 0 0 / 60% )}
+.landing .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:rgba(0, 81, 255, 0.5)}
 .landing .container .text {text-align: center;direction: rtl;position: absolute;top: 50%;left: 50%;transform: translate(-50% , -50%);}
 .landing .container .text h2 {margin: 0;color:white;font-size: 40px;}
 .landing .container .text p {font-size: 22px;text-align: justify;color:white;line-height: 1.6;}
@@ -58,5 +62,13 @@ header .container ul li a:hover {color:#ffb400}
     .landing .container .text p {font-size: 20px;text-align: inherit;line-height: 1.4;}
 }
 /* end home */
+
 /* start home */
+.features {}
+.features::before {}
+.features .container {}
+.features .container .featurs {direction: rtl;display: grid;grid-template-columns: repeat(auto-fill,minmax( 200px, 1fr ));grid-gap: 20px;text-align: center;}
+.features .container .featurs .featur img {max-width: 100px;}
+.features .container .featurs .featur h3 {}
+.features .container .featurs .featur p {font-size: 15px;}
 /* end home */
