@@ -7,6 +7,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+@font-face {
+    src:url(../fonts/alfont_com_Manifa-V2.ttf);
+    font-family: manifa;
+}
 body {}
 
 .container {margin-left: auto;margin-right: auto;padding-left: 15px;padding-right: 15px;}
@@ -50,7 +54,7 @@ header .container ul li a:hover {color:#ffb400}
 /* end header */
 /* start home */
 .landing {background-image: url(../images/landing.jpeg);background-size: cover;height: calc(100vh - 120px);position: relative;margin: 0}
-.landing .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:rgba(0, 81, 255, 0.5)}
+.landing .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:#0b4d74da}
 .landing .container .text {text-align: center;direction: rtl;position: absolute;top: 50%;left: 50%;transform: translate(-50% , -50%);}
 .landing .container .text h2 {margin: 0;color:white;font-size: 40px;}
 .landing .container .text p {font-size: 22px;text-align: justify;color:white;line-height: 1.6;}
@@ -72,3 +76,9 @@ header .container ul li a:hover {color:#ffb400}
 .features .container .featurs .featur h3 {}
 .features .container .featurs .featur p {font-size: 15px;}
 /* end home */
+/* start roya */
+.roya {position: relative;background-image: url(../images/roya.jpg);background-size: cover;height:100vh;margin: 0;}
+.roya .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:#edc21583}
+.roya .container {}
+.roya .container {}
+/* end roya */
