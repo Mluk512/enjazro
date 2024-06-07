@@ -98,11 +98,14 @@ header .container ul li a:hover {color:#ffb400}
 .foteer .container .royaa h4 {font-size: 20px;font-weight: bold;margin: 0;}
 .foteer .container .royaa p {text-align: justify;font-size: 15px;}
 .foteer .container .royaa .sochial {}
-.foteer .container .royaa .sochial img {max-width:25px ;border-radius: 50%;border: 1px solid white;padding: 5px;background-color: white;margin-left: 5px;}
+.foteer .container .royaa .sochial a {}
+.foteer .container .royaa .sochial a img {transition: 0.2s;max-width:25px ;border-radius: 50%;border: 1px solid white;padding: 5px;background-color: white;margin-left: 5px;}
+.foteer .container .royaa .sochial a img:hover {background-color: #ffb400;max-width: 28px;}
 .foteer .container .menu {}
-.foteer .container .menu ul {list-style: none;text-align: center;;}
-.foteer .container .menu ul li {padding: 10px;}
-.foteer .container .menu ul li a {color: white;text-decoration: none;}
+.foteer .container .menu ul {list-style: none;text-align: center;margin: 0px;}
+.foteer .container .menu ul li {padding: 15px;}
+.foteer .container .menu ul li a {color: white;text-decoration: none;font-weight: bold;border-bottom: 1px solid white;padding-bottom: 6px;}
+.foteer .container .menu ul li a:hover {color: #ffb400;}
 .foteer .container .map {}
-.foteer .container .map .map1 {}
+.foteer .container .map .map1 {border-radius:10px;}
 /* end foteer */
