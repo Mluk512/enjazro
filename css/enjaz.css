@@ -12,7 +12,9 @@
     font-family: manifa;
 }
 body {}
-
+html {
+    scroll-behavior: smooth;
+}
 .container {margin-left: auto;margin-right: auto;padding-left: 15px;padding-right: 15px;}
 /* small */
 @media (min-width:786px){.container {width: 750px;}}
@@ -90,16 +92,17 @@ header .container ul li a:hover {color:#ffb400}
 .roya .container .text h2 {color: white;font-size: 35px;}
 .roya .container .text p  {color: white;}
 /* start foteer */
-.foteer {background-color: #343434;direction: rtl;color: white;}
-.foteer .container {display: grid;grid-template-columns: repeat(auto-fill,minmax(300px ,1fr));grid-gap:20px;}
+.foteer {background-color: #343434;direction: rtl;color: white;padding: 20px;text-align: center;}
+.foteer .container {display: grid;grid-template-columns: repeat(auto-fill,minmax(200px ,1fr));grid-gap:20px;}
 .foteer .container .royaa {}
-.foteer .container .royaa h4 {font-size: 20px;font-weight: bold;}
+.foteer .container .royaa h4 {font-size: 20px;font-weight: bold;margin: 0;}
 .foteer .container .royaa p {text-align: justify;font-size: 15px;}
 .foteer .container .royaa .sochial {}
 .foteer .container .royaa .sochial img {max-width:25px ;border-radius: 50%;border: 1px solid white;padding: 5px;background-color: white;margin-left: 5px;}
-.foteer .container .royaa .menu {}
-.foteer .container .royaa .menu ul {}
-.foteer .container .royaa .menu ul li {}
-.foteer .container .royaa .menu ul li a {}
-.foteer .container .royaa .map {}
+.foteer .container .menu {}
+.foteer .container .menu ul {list-style: none;text-align: center;;}
+.foteer .container .menu ul li {padding: 10px;}
+.foteer .container .menu ul li a {color: white;text-decoration: none;}
+.foteer .container .map {}
+.foteer .container .map .map1 {}
 /* end foteer */
