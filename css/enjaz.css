@@ -7,7 +7,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-html { scroll-behavior:smooth;}
 @font-face {
     src:url(../fonts/alfont_com_Manifa-V2.ttf);
     font-family: manifa;
@@ -84,7 +83,9 @@ header .container ul li a:hover {color:#ffb400}
 /* end home */
 /* start roya */
 .roya {position: relative;background-image: url(../images/roya.jpg);background-size: cover;height:100vh;margin: 0;background-attachment: fixed;}
-.roya .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:#edc21583}
-.roya .container {}
-.roya .container {}
-/* end roya */
+.roya .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:#ffb3006b}
+.roya .container {position: relative;}
+.roya .container .roy {display: grid;grid-template-columns: repeat(auto-fill,minmax(200px ,1fr));grid-gap:40px;margin-top: 150px;}
+.roya .container .text {padding: 20px;border-radius: 50%;border: 4px solid white;text-align: center;font-weight: bold;}
+.roya .container .text h2 {color: white;font-size: 35px;}
+.roya .container .text p  {color: white;}
