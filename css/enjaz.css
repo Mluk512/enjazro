@@ -66,6 +66,7 @@ header .container ul li a:hover {color:#ffb400}
     .landing .container .text {height: 500px;width: 300px;padding: 20px;background-color: #ffb400;left: 50%;top: 50%;transform: translateX(-50% , -50%);background-color: rgba(0, 174, 255, 0.342);border-radius:10px;}
     .landing .container .text h2 {font-size: 30px;padding-top: 25px;}
     .landing .container .text p {font-size: 20px;text-align: inherit;line-height: 1.4;}
+    .landing {background-attachment: fixed;}
 }
 /* end home */
 
