@@ -39,7 +39,7 @@ header .container ul li a {color: white;text-decoration: none;font-size: 15px;fo
 header .container ul li a:hover {color:#ffb400}
 
 @media (max-width:786px) {
-    header .container .links {position: relative;}
+    header .container .links {position: relative;position: relative;border-radius: 4px;background-color: #ffb400;padding: 5px;}
     header .container .links:hover ul {display: block;}
     header .container .links:hover .icon span:nth-child(2) {width: 100%}
     header .container .links .icon {width: 30px;display: flex;flex-wrap: wrap;justify-content: flex-end;}
