@@ -70,7 +70,7 @@ header .container ul li a:hover {color:#ffb400}
 /* end home */
 
 /* start home */
-.features {background-color: #739ee3;background-size: cover;position: relative;}
+.features {background-color: #0095ffa3;background-size: cover;position: relative;}
 .features::after {content: "";position: absolute;left: 0px;top: 0;background: url(../images/choc.png)repeat-y;min-width: 1440px;height: 1011px;text-align: center;}
 .features::before {content: "";position: absolute;left: 0px;top: 0;background: url(../images/choc2.png)no-repeat;min-width: 408px;height: 583px;}
 .features .container {z-index: 1;}
