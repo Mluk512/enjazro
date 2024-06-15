@@ -77,7 +77,8 @@ header .container ul li a:hover {color:#ffb400}
 .features .container {z-index: 1;}
 .features .container .featurs {direction: rtl;display: grid;grid-template-columns: repeat(auto-fill,minmax( 200px, 1fr ));grid-gap: 20px;text-align: center;}
 .features .container .featurs .featur img {max-width: 140px;background-color: white;border-radius: 50%;padding: 5px;border: 1px solid #ffb400;}
-.features .container .featurs .featur h3 {color: white;}
+.features .container .featurs .featur a {color: white;text-decoration: none;}
+.features .container .featurs .featur h3 {color: white;text-decoration: none;}
 .features .container .featurs .featur p {font-size: 15px;color: white;}
 @media (max-width:1200px) {
     .features::before {display: none;}
@@ -88,7 +89,7 @@ header .container ul li a:hover {color:#ffb400}
 .roya {position: relative;background-image: url(../images/roya.jpg);background-size: cover;height:100vh;margin: 0;background-attachment: fixed;}
 .roya .overly {position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color:#ffb3006b}
 .roya .container {position: relative;}
-.roya .container .roy {display: grid;grid-template-columns: repeat(auto-fill,minmax(200px ,1fr));grid-gap:40px;margin-top: 150px;}
+.roya .container .roy {display: grid;grid-template-columns: repeat(auto-fill,minmax(200px ,1fr));grid-gap:40px;margin-top: 30px;}
 .roya .container .text {padding: 20px;border-radius: 50%;border: 4px solid white;text-align: center;font-weight: bold;}
 .roya .container .text h2 {color: white;font-size: 35px;}
 .roya .container .text p  {color: white;}
@@ -97,7 +98,7 @@ header .container ul li a:hover {color:#ffb400}
 .foteer .container {display: grid;grid-template-columns: repeat(auto-fill,minmax(200px ,1fr));grid-gap:20px;}
 .foteer .container .royaa {}
 .foteer .container .royaa h4 {font-size: 20px;font-weight: bold;margin: 0;}
-.foteer .container .royaa p {text-align: justify;font-size: 15px;}
+.foteer .container .royaa p {text-align: center;font-size: 15px;font-weight:bold;}
 .foteer .container .royaa .sochial {}
 .foteer .container .royaa .sochial a {}
 .foteer .container .royaa .sochial a img {transition: 0.2s;max-width:25px ;border-radius: 50%;border: 1px solid white;padding: 5px;background-color: white;margin-left: 5px;}
